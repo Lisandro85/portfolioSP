@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-bg;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-Rubik {
+  font-family: "Rubik Vinyl", sans-serif;
+}
+.font-special {
+  font-family: "Special Elite", cursive;
+}
